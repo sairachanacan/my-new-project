@@ -1,22 +1,23 @@
 import React from "react";
 import resumeFile from "../documents/resume.pdf";
+
 const AboutUs = ({ classicHeader, darkTheme }) => {
   return (
-    <section id="about" className={"section " + (darkTheme ? "bg-dark-1" : "")}>
+    <section id="about" className={"section " + (darkTheme ? "" : "bg-dark-1")}>
       <div className={"container " + (classicHeader ? "" : "px-lg-5")}>
         {/* Heading */}
         <div className="position-relative d-flex text-center mb-5">
           <h2
             className={
               "text-24  text-uppercase fw-600 w-100 mb-0 " +
-              (darkTheme ? "text-muted opacity-1" : "text-light opacity-4")
+              (darkTheme ? "text-light opacity-4" : "text-muted opacity-1")
             }
           >
             About Me
           </h2>
           <p
             className={
-              "text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0 " +
+              "text-9 text-white fw-600 position-absolute w-100 align-self-center lh-base mb-0 " +
               (darkTheme ? "text-white" : "text-dark")
             }
           >
@@ -30,16 +31,16 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
           <div className="col-lg-7 col-xl-8 text-center text-lg-start">
             <h2
               className={
-                "text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
+                "text-7 fw-600 mb-3 " + (darkTheme ? "" : "text-white")
               }
             >
               I'm <span className="text-primary">Sai Rachana,</span> a Web Designer
               Developer
             </h2>
-            <p className={darkTheme ? "text-white-50" : ""}>
+            <p className={darkTheme ? "" : "text-white-50"}>
             As a UI/UX Designer, I have a strong understanding of user-centered design principles and a passion for creating intuitive, user-friendly interfaces. I have experience working on a variety of projects, from small web applications to large-scale enterprise systems, and I have a proven track record of delivering high-quality designs that meet project requirements and exceed user expectations. My expertise in design tools such as Sketch, Adobe XD, and Figma, allows me to translate my designs quickly and effectively into polished and functional prototypes.
             </p>
-            <p className={darkTheme ? "text-white-50" : ""}>
+            <p className={darkTheme ? "" : "text-white-50"}>
             As a Front-end Developer, I have a deep understanding of HTML, CSS, and JavaScript and I am proficient in a variety of front-end frameworks, including React and Angular. I have worked on multiple projects and have a strong ability to write clean, maintainable code that is optimized for performance and accessibility. I am familiar with Agile development methodologies and have a proven track record of working effectively in fast-paced environments.
             </p>
           </div>
@@ -50,7 +51,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               <ul
                 className={
                   "list-style-2 " +
-                  (darkTheme ? "list-style-light text-light" : "")
+                  (darkTheme ? "" : "list-style-light text-light")
                 }
               >
                 <li>

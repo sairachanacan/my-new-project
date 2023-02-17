@@ -23,7 +23,7 @@ const Services = ({ classicHeader, darkTheme }) => {
   return (
     <section
       id="services"
-      className={"section " + (darkTheme ? "bg-dark-2" : "bg-light")}
+      className={"section " + (darkTheme ? "bg-light" : "bg-dark-2")}
     >
       <div className={"container " + (classicHeader ? "" : "px-lg-5")}>
         {/* Heading */}
@@ -31,7 +31,7 @@ const Services = ({ classicHeader, darkTheme }) => {
           <h2
             className={
               "text-24  text-uppercase fw-600 w-100 mb-0 " +
-              (darkTheme ? "text-white-50  opacity-1" : "text-light  opacity-4")
+              (darkTheme ? "text-light  opacity-4" : "text-white-50  opacity-1")
             }
           >
             Services
@@ -39,7 +39,7 @@ const Services = ({ classicHeader, darkTheme }) => {
           <p
             className={
               "text-9  fw-600 position-absolute w-100 align-self-center lh-base mb-0 " +
-              (darkTheme ? "text-white" : "text-dark")
+              (darkTheme ? "text-dark" : "text-white")
             }
           >
             What I Do?
@@ -58,16 +58,16 @@ const Services = ({ classicHeader, darkTheme }) => {
                       <div
                         className={
                           "featured-box-icon text-primary  shadow-sm rounded " +
-                          (darkTheme ? "bg-dark-1" : "bg-white")
+                          (darkTheme ? "bg-white" : "bg-dark-1")
                         }
                       >
                         <i className={service.icon} />
                       </div>
-                      <h3 className={darkTheme ? "text-white" : ""}>
+                      <h3 className={darkTheme ? "" : "text-white"}>
                         {service.name}
                       </h3>
                       <p
-                        className={"mb-0 " + (darkTheme ? "text-white-50" : "")}
+                        className={"mb-0 " + (darkTheme ? "" : "text-white-50")}
                       >
                         {service.desc}
                       </p>

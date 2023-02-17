@@ -80,7 +80,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
   return (
     <section
       id="resume"
-      className={"section " + (darkTheme ? "bg-dark-1" : "")}
+      className={"section " + (darkTheme ? "" : "bg-dark-1")}
     >
       <div className={"container " + (classicHeader ? "" : "px-lg-5")}>
         {/* Heading */}
@@ -88,7 +88,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
           <h2
             className={
               "text-24  text-uppercase fw-600 w-100 mb-0 " +
-              (darkTheme ? "text-muted opacity-1" : "text-light opacity-4")
+              (darkTheme ? "text-light opacity-4" : "text-muted opacity-1")
             }
           >
             Summary
@@ -96,7 +96,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
           <p
             className={
               "text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0 " +
-              (darkTheme ? "text-white" : "text-dark")
+              (darkTheme ? "text-dark" : "text-white")
             }
           >
             {" "}
@@ -105,12 +105,11 @@ const Resume = ({ classicHeader, darkTheme }) => {
           </p>
         </div>
         {/* Heading end*/}
-        <div className="row gx-5">
           {/* My Education */}
-          <div className="col-md-6">
+          <div className="row gx-5">
             <h2
               className={
-                "text-6 fw-600 mb-4 " + (darkTheme ? "text-white" : "")
+                "text-6 fw-600 mb-4 " + (darkTheme ? "" : "text-white")
               }
             >
               My Education
@@ -121,29 +120,29 @@ const Resume = ({ classicHeader, darkTheme }) => {
                   key={index}
                   className={
                     "bg-white  rounded p-4 mb-4 " +
-                    (darkTheme ? "bg-dark" : "bg-white border")
+                    (darkTheme ? "bg-white border" : "bg-dark")
                   }
                 >
                   <p className="badge bg-primary text-2 fw-400">
                     {value.yearRange}
                   </p>
-                  <h3 className={"text-5 " + (darkTheme ? "text-white" : "")}>
+                  <h3 className={"text-5 " + (darkTheme ? "" : "text-white")}>
                     {value.title}
                   </h3>
-                  <p className={darkTheme ? "text-primary" : "text-danger"}>
+                  <p className={darkTheme ? "text-danger" : "text-primary"}>
                     {value.place}
                   </p>
-                  <p className={"mb-0 " + (darkTheme ? "text-white-50" : "")}>
+                  <p className={"mb-0 " + (darkTheme ? "" : "text-white-50")}>
                     {value.desc}
                   </p>
                 </div>
               ))}
           </div>
           {/* My Experience */}
-          <div className="col-md-6">
+          <div className="row gx-5">
             <h2
               className={
-                "text-6 fw-600 mb-4 " + (darkTheme ? "text-white" : "")
+                "text-6 fw-600 mb-4 " + (darkTheme ? "" : "text-white")
               }
             >
               My Experience
@@ -154,29 +153,28 @@ const Resume = ({ classicHeader, darkTheme }) => {
                   key={index}
                   className={
                     "bg-white  rounded p-4 mb-4 " +
-                    (darkTheme ? "bg-dark" : "bg-white border")
+                    (darkTheme ? "bg-white border" : "bg-dark")
                   }
                 >
                   <p className="badge bg-primary text-2 fw-400">
                     {value.yearRange}
                   </p>
-                  <h3 className={"text-5 " + (darkTheme ? "text-white" : "")}>
+                  <h3 className={"text-5 " + (darkTheme ? "" : "text-white")}>
                     {value.title}
                   </h3>
-                  <p className={darkTheme ? "text-primary" : "text-danger"}>
+                  <p className={darkTheme ? "text-danger" : "text-primary"}>
                     {value.place}
                   </p>
-                  <p className={"mb-0 " + (darkTheme ? "text-white-50" : "")}>
+                  <p className={"mb-0 " + (darkTheme ? "" : "text-white-50")}>
                     {value.desc}
                   </p>
                 </div>
               ))}
           </div>
-        </div>
         {/* My Skills */}
         <h2
           className={
-            "text-6 fw-600 mt-4 mb-4 " + (darkTheme ? "text-white" : "")
+            "text-6 fw-600 mt-4 mb-4 " + (darkTheme ? "" : "text-white")
           }
         >
           My Skills
@@ -188,7 +186,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
                 <p
                   className={
                     " fw-500 text-start mb-2 " +
-                    (darkTheme ? "text-light" : "text-dark")
+                    (darkTheme ? "text-dark" : "text-light")
                   }
                 >
                   {skill.name}{" "}
@@ -196,7 +194,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
                 </p>
                 <div
                   className={
-                    "progress progress-sm mb-4 " + (darkTheme ? "bg-dark" : "")
+                    "progress progress-sm mb-4 " + (darkTheme ? "" : "bg-dark")
                   }
                 >
                   <div

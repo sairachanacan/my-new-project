@@ -18,6 +18,22 @@
   overflow:hidden;
 }
 
+.bg-dark-1 {
+	background-color: $gray-900 !important;
+}
+
+.bg-dark-2 {
+	background-color: $gray-800 !important;
+}
+
+.bg-dark-3 {
+	background-color: $gray-700 !important;
+}
+
+.bg-dark-4 {
+	background-color: $gray-600 !important;
+}
+
 @include media-breakpoint-down(sm) {
 	.section {
 		padding: 3.5rem 0;
