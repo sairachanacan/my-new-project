@@ -106,8 +106,8 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       date: "2017 - 2019",
       thumbImage: "images/projects/drreddys1.png",
       sliderImages: [
-        "images/projects/drreddys2.png",
-        "images/projects/drreddys3.png",
+        "images/projects/dr reddys2.png",
+        "images/projects/dr reddys3.png",
       ],
       categories: [filters.MOBILE],
     },
