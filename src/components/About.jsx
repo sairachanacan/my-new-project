@@ -33,19 +33,14 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 "text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
               }
             >
-              I'm <span className="text-primary">Simone Olivia,</span> a Web
+              I'm <span className="text-primary">Sai Rachana,</span> a Web Designer
               Developer
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-              I help you build brand for your business at an affordable price.
-              Thousands of clients have procured exceptional results while
-              working with our dedicated team. when an unknown printer took a
-              galley of type and scrambled it to make a type specimen book.
+            As a UI/UX Designer, I have a strong understanding of user-centered design principles and a passion for creating intuitive, user-friendly interfaces. I have experience working on a variety of projects, from small web applications to large-scale enterprise systems, and I have a proven track record of delivering high-quality designs that meet project requirements and exceed user expectations. My expertise in design tools such as Sketch, Adobe XD, and Figma, allows me to translate my designs quickly and effectively into polished and functional prototypes.
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-              Delivering work within time and budget which meets client’s
-              requirements is our moto. Lorem Ipsum has been the industry's
-              standard dummy text ever when an unknown printer took a galley.
+            As a Front-end Developer, I have a deep understanding of HTML, CSS, and JavaScript and I am proficient in a variety of front-end frameworks, including React and Angular. I have worked on multiple projects and have a strong ability to write clean, maintainable code that is optimized for performance and accessibility. I am familiar with Agile development methodologies and have a proven track record of working effectively in fast-paced environments.
             </p>
           </div>
           {/* About me content end */}
@@ -59,18 +54,15 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 }
               >
                 <li>
-                  <span className="fw-600 me-2">Name:</span>Simone Olivia
+                  <span className="fw-600 me-2">Name:</span>Sai Rachana Maguluri
                 </li>
                 <li>
                   <span className="fw-600 me-2">Email:</span>
-                  <a href="mailto:chat@simone.com">chat@simone.com</a>
-                </li>
-                <li>
-                  <span className="fw-600 me-2">Age:</span>28
+                  <a href="mailto:chat@simone.com">sairachanacan@gmail.com</a>
                 </li>
                 <li className="border-0">
-                  <span className="fw-600 me-2">From:</span>Los Angeles,
-                  California
+                  <span className="fw-600 me-2">From:</span>Ottawa,
+                  Canada
                 </li>
               </ul>
               <a
@@ -91,7 +83,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
             (darkTheme ? "separator-border-light" : "")
           }
         >
-          <div className="row">
+          {/* <div className="row">
             <div className="col-6 col-md-3">
               <div className="featured-box text-center">
                 <h4
@@ -152,7 +144,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         {/* projects rewards counting end */}
       </div>

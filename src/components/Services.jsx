@@ -4,34 +4,19 @@ const Services = ({ classicHeader, darkTheme }) => {
   // services details
   const services = [
     {
-      name: "Graphic Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-palette",
-    },
-    {
-      name: "Web Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-desktop",
-    },
-    {
       name: "UI/UX Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "I offer comprehensive UX/UI design services to help you bring your ideas to life and ensure that your users have the best possible experience.My design process is focused on understanding your target audience and their needs, and I work closely with you to create a custom design solution that meets your specific goals. Whether you need a new website, mobile app, or other digital product, I can help you create a seamless user experience that will keep your users engaged and coming back for more.",
       icon: "fas fa-pencil-ruler",
     },
     {
-      name: "App Design & Develop",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-paint-brush",
+      name: "Web development",
+      desc: "My development process is focused on understanding your business goals and delivering a website or web application that is tailored to your unique requirements. Whether you need a simple brochure website or a complex web application, I can help you create a fast, responsive, and secure web presence that drives results.",
+      icon: "fas fa-desktop",
     },
     {
-      name: "Business Analysis",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-chart-area",
-    },
-    {
-      name: "SEO Marketing",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-bullhorn",
+      name: "Front end development",
+      desc: "My development process is focused on delivering a website or web application that is optimized for performance, accessibility, and user engagement. I specialize in using Angular to build dynamic, single-page applications that offer seamless user experiences.",
+      icon: "fas fa-desktop",
     },
   ];
 

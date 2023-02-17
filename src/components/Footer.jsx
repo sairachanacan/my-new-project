@@ -19,13 +19,13 @@ const Footer = ({ classicHeader, darkTheme, handleNavClick }) => {
                   handleNavClick("home");
                 }}
               >
-                Simone
+                Sai Rachana
               </a>
               . All Rights Reserved.
             </p>
           </div>
           <div className="col-lg-6">
-            <ul className="nav nav-separator justify-content-center justify-content-lg-end">
+            {/* <ul className="nav nav-separator justify-content-center justify-content-lg-end">
               <li className="nav-item">
                 <a
                   className="nav-link"
@@ -46,7 +46,7 @@ const Footer = ({ classicHeader, darkTheme, handleNavClick }) => {
                   Disclaimer
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </div>

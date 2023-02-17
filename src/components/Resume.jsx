@@ -4,50 +4,56 @@ import resumeFile from "../documents/resume.pdf";
 const Resume = ({ classicHeader, darkTheme }) => {
   const educationDetails = [
     {
-      yearRange: "2000 - 2004",
-      title: "Computer Science",
-      place: "International University",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-    },
-    {
-      yearRange: "2005 - 2008",
+      yearRange: "2010 - 2014",
       title: "Bachelor Degree",
-      place: "University of California",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-    },
-    {
-      yearRange: "2009 - 2012",
-      title: "Master Degree",
-      place: "Harvard University",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      place: "Vignan University",
+      desc: "I studied computer science at Vignan University, gaining comprehensive knowledge in programming, software development, and computer systems.",
     },
   ];
 
   const experienceDetails = [
     {
-      yearRange: "2012 - 2013",
-      title: "Jr. UI UX Designer",
-      place: "Themeforest",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2014 - 2016",
+      title: "UI Developer",
+      place: "India",
+      desc: "I worked as a UI developer in 'vidcentum', where I designed and developed engaging user interfaces for web applications and ensured seamless user experiences.",
     },
     {
-      yearRange: "2014 - 2016",
-      title: "Jr. Product Designer",
-      place: "Dribbble",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2016 - 2017",
+      title: "UI Developer",
+      place: "India",
+      desc: "I worked as a UI developer using Angular in 'LMIPHL', where I designed and developed dynamic, single-page applications with seamless user experiences.",
     },
     {
       yearRange: "2017 - 2019",
-      title: "Product Designer",
-      place: "Adobe",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      title: "Module lead - UI Developer",
+      place: "India",
+      desc: "I worked as a module lead in UI development using Angular in 'purple talk', where I led a team of developers, managed project timelines, and ensured high-quality code delivery for dynamic, single-page applications.",
+    },
+    {
+      yearRange: "2019 - 2020",
+      title: "UI/UX Designer Developer",
+      place: "Canada",
+      desc: "I worked as a UI/UX designer and developer in 'dappstreet', where I designed wireframes and prototypes to ensure seamless user experiences and developed responsive web applications using html5, css3, angular, react that were optimized for performance and accessibility.",
+    },
+    {
+      yearRange: "2020 - 2021",
+      title: "Front end developer",
+      place: "Canada",
+      desc: "I worked as a front-end engineer in 'bell', where I developed and maintained complex web applications using cutting-edge front-end technologies and collaborated with cross-functional teams to deliver high-quality code that was optimized for performance and user experience.",
+    },
+    {
+      yearRange: "2021 - present",
+      title: "UX Designer",
+      place: "Canada",
+      desc: "I worked as a UX designer in 'metareset' where I designed wireframes, prototypes, and user interfaces for web and mobile applications, and conducted user research and usability testing to ensure a seamless and intuitive user experience. I collaborated with cross-functional teams, including developers and product managers, to create engaging and effective designs that met business and user needs.",
     },
   ];
 
   const skills = [
     {
       name: "Web Design",
-      percent: 65,
+      percent: 90,
     },
     {
       name: "HTML/CSS",
@@ -63,7 +69,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
     },
     {
       name: "Angular Js",
-      percent: 60,
+      percent: 85,
     },
     {
       name: "Bootstrap",

@@ -10,193 +10,183 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
   const [selectedProjectDetails, setSelectedProjectDetails] = useState();
 
   const filters = {
-    DESIGN: "Desing",
-    BRAND: "Brand",
-    PHOTOS: "Photos",
+    MOBILE: "Mobile",
+    // BRAND: "Web/Desktop",
+    WEB: "web",
   };
 
   const projectsData = [
     {
-      title: "Project Title 1",
+      title: "Metareset",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
-      url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
-      },
-      socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
-      },
-      thumbImage: "images/projects/project-1.jpg",
+      "MetaReset is an UBI based social interactive metaverse platform. MetaReset aims to connect web3 products with IRL. It allows users to ship their products from digital to user’s doorstep.",
+      client: "Metareset",
+      date: "Present",
+      thumbImage: "images/projects/metareset (1).png",
       sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
+        "images/projects/metareset(2).png",
+        "images/projects/metareset3.png",
       ],
-      categories: [filters.BRAND],
+      categories: [filters.MOBILE],
     },
     {
-      title: "Project Title 2",
+      title: "Mann + hummel",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
-      url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
-      },
-      socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
-      },
-      thumbImage: "images/projects/project-2.jpg",
+      "Developed website for Senzit project, it is a product of Man+hummel, provides more uptime to our customers and manages fleet maintenance. It uses sensors to monitor the air filter status of agricultural, construction or mining machinery. Senzit measures the condition of the air filter and transfers the data to the user's mobile device or the fleet manager’s desktop.",
+      client: "Purple talk",
+      date: "2017 - 2019",
+      thumbImage: "images/projects/mannhummel1.png",
       sliderImages: [
-        "images/projects/project-2.jpg",
-        "images/projects/project-5.jpg",
+        "images/projects/mannhummel2.png",
+        "images/projects/mannhummel3.png",
+        "images/projects/mannhummel4.png",
       ],
-      categories: [filters.DESIGN],
+      categories: [filters.MOBILE],
     },
     {
-      title: "Project Title 3",
+      title: "Dr, Reddy's",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
-      url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
-      },
-      socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
-      },
-      thumbImage: "images/projects/project-3.jpg",
+      "Dr. Reddy's Laboratories is a global pharmaceutical company based in India, with a presence in over 100 countries. The company produces and markets a wide range of pharmaceutical products including generic drugs, biosimilars, and proprietary products. Dr. Reddy's is known for its research and development capabilities and has a strong focus on innovation, including drug discovery and development in key therapeutic areas such as oncology, gastroenterology, and cardiology. The company is also committed to corporate social responsibility and has several initiatives in place to improve access to healthcare and promote education and sustainability.",
+      client: "Purple talk",
+      date: "2017 - 2019",
+      thumbImage: "images/projects/drreddys1.png",
       sliderImages: [
-        "images/projects/project-3.jpg",
-        "images/projects/project-5.jpg",
+        "images/projects/drreddys2.png",
+        "images/projects/drreddys3.png",
       ],
-      categories: [filters.PHOTOS],
+      categories: [filters.MOBILE],
     },
     {
-      title: "Project Title 4",
+      title: "Kalgudi",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
-      url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
-      },
-      socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
-      },
-      thumbImage: "images/projects/project-4.jpg",
+        "Kalgudi is a free to use platform for agriculture related initiatives. Kalgudi is accessible from mobile devices as well as from web browsers seamlessly. Different stakeholders of agriculture like farmers, traders, input dealers, farmer producer Organizations, students, scientists, researchers etc., are using Kalgudi to share their needs, ask & answer questions, receive news & information like farm advisories, market linkages, etc., currently partnered with ICRISAT and CGG in their agriculture extension initiatives.",
+      client: "Vidcentum",
+      date: "2014 - 2016",
+      thumbImage: "images/projects/kalgudi1.png",
       sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-4.jpg",
+        "images/projects/kalgudi2.png",
+        "images/projects/kalgudi3.png",
+        "images/projects/kalgudi4.png",
       ],
-      categories: [filters.BRAND, filters.PHOTOS],
+      categories: [filters.MOBILE],
     },
     {
-      title: "Project Title 5",
+      title: "Metareset",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
-      url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
-      },
-      socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
-      },
-      thumbImage: "images/projects/project-5.jpg",
+      "MetaReset is an UBI based social interactive metaverse platform. MetaReset aims to connect web3 products with IRL. It allows users to ship their products from digital to user’s doorstep.",
+      client: "Metareset",
+      date: "Present",
+      thumbImage: "images/projects/meta.png",
       sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
+        "images/projects/metareset.png",
+        "images/projects/metareset2.png",
       ],
-      categories: [filters.DESIGN],
+      categories: [filters.WEB],
     },
     {
-      title: "Project Title 6",
+      title: "Mann + hummel",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
-      url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
-      },
-      socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
-      },
-      thumbImage: "images/projects/project-6.jpg",
+      "Developed website for Senzit project, it is a product of Man+hummel, provides more uptime to our customers and manages fleet maintenance. It uses sensors to monitor the air filter status of agricultural, construction or mining machinery. Senzit measures the condition of the air filter and transfers the data to the user's mobile device or the fleet manager’s desktop.",
+      client: "Purple talk",
+      date: "2017 - 2019",
+      thumbImage: "images/projects/manndesktop1.png",
       sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
+        "images/projects/manndesktop2.png",
+        "images/projects/manndesktop3.png",
       ],
-      categories: [filters.BRAND],
+      categories: [filters.WEB],
     },
     {
-      title: "Project Title 7",
+      title: "DR Reddy's",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
-      url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
-      },
-      socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
-      },
-      thumbImage: "images/projects/project-7.jpg",
+      "Dr. Reddy's Laboratories is a global pharmaceutical company based in India, with a presence in over 100 countries. The company produces and markets a wide range of pharmaceutical products including generic drugs, biosimilars, and proprietary products. Dr. Reddy's is known for its research and development capabilities and has a strong focus on innovation, including drug discovery and development in key therapeutic areas such as oncology, gastroenterology, and cardiology. The company is also committed to corporate social responsibility and has several initiatives in place to improve access to healthcare and promote education and sustainability.",
+      client: "Purple talk",
+      date: "2017 - 2019",
+      thumbImage: "images/projects/drreddysdesktop1.png",
       sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
+        "images/projects/drreddysdesktop2.png",
+        "images/projects/drreddysdesktop3.png",
       ],
-      categories: [filters.DESIGN, filters.PHOTOS],
+      categories: [filters.WEB],
+    },
+    {
+      title: "Kalgudi",
+      projectInfo:
+        "Kalgudi is a free to use platform for agriculture related initiatives. Kalgudi is accessible from mobile devices as well as from web browsers seamlessly. Different stakeholders of agriculture like farmers, traders, input dealers, farmer producer Organizations, students, scientists, researchers etc., are using Kalgudi to share their needs, ask & answer questions, receive news & information like farm advisories, market linkages, etc., currently partnered with ICRISAT and CGG in their agriculture extension initiatives.",
+      client: "Vidcentum",
+      date: "2014 - 2016",
+      thumbImage: "images/projects/kalgudidesktop1.png",
+      sliderImages: [
+        "images/projects/kalgudidesktop2.png",
+        "images/projects/kalgudidesktop3.png",
+      ],
+      categories: [filters.WEB],
+    // {
+    //   title: "Project Title 5",
+    //   projectInfo:
+    //     "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+    //   client: "Ruby Clinton",
+    //   technologies: "iOS, HTML5, CSS3, PHP, Java",
+    //   industry: "Art & Design",
+    //   date: "July 16, 2019",
+    //   thumbImage: "images/projects/project-5.jpg",
+    //   sliderImages: [
+    //     "images/projects/project-1.jpg",
+    //     "images/projects/project-5.jpg",
+    //   ],
+    //   categories: [filters.DESIGN],
+    // },
+    // {
+    //   title: "Project Title 6",
+    //   projectInfo:
+    //     "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+    //   client: "Ruby Clinton",
+    //   technologies: "iOS, HTML5, CSS3, PHP, Java",
+    //   industry: "Art & Design",
+    //   date: "July 16, 2019",
+    //   url: {
+    //     name: "www.example.com",
+    //     link: "https://www.example.com",
+    //   },
+    //   socialLinks: {
+    //     facebook: "http://www.facebook.com/",
+    //     twitter: "http://www.twitter.com/",
+    //     google: "http://www.google.com/",
+    //     instagram: "http://www.instagram.com/",
+    //     mail: "mailto:example@gmail.com",
+    //   },
+    //   thumbImage: "images/projects/project-6.jpg",
+    //   sliderImages: [
+    //     "images/projects/project-1.jpg",
+    //     "images/projects/project-5.jpg",
+    //   ],
+    //   categories: [filters.BRAND],
+    // },
+    // {
+    //   title: "Project Title 7",
+    //   projectInfo:
+    //     "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+    //   client: "Ruby Clinton",
+    //   technologies: "iOS, HTML5, CSS3, PHP, Java",
+    //   industry: "Art & Design",
+    //   date: "July 16, 2019",
+    //   url: {
+    //     name: "www.example.com",
+    //     link: "https://www.example.com",
+    //   },
+    //   socialLinks: {
+    //     facebook: "http://www.facebook.com/",
+    //     twitter: "http://www.twitter.com/",
+    //     google: "http://www.google.com/",
+    //     instagram: "http://www.instagram.com/",
+    //     mail: "mailto:example@gmail.com",
+    //   },
+    //   thumbImage: "images/projects/project-7.jpg",
+    //   sliderImages: [
+    //     "images/projects/project-1.jpg",
+    //     "images/projects/project-5.jpg",
+    //   ],
+    //   categories: [filters.DESIGN, filters.PHOTOS],
     },
   ];
 
@@ -289,7 +279,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                 projectsData.map((project, index) => (
                   <div
                     className={
-                      "col-sm-6 col-lg-4 filter-item " +
+                      "col-sm-6 col-lg-3 filter-item " +
                       project.categories.join(" ")
                     }
                     key={index}
