@@ -35,26 +35,25 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       "Developed website for Senzit project, it is a product of Man+hummel, provides more uptime to our customers and manages fleet maintenance. It uses sensors to monitor the air filter status of agricultural, construction or mining machinery. Senzit measures the condition of the air filter and transfers the data to the user's mobile device or the fleet manager’s desktop.",
       client: "Purple talk",
       date: "2017 - 2019",
-      thumbImage: "images/projects/mannhummel1.png",
+      thumbImage: "images/projects/manndesktop1.png",
       sliderImages: [
-        "images/projects/mannhummel2.png",
-        "images/projects/mannhummel3.png",
-        "images/projects/mannhummel4.png",
+        "images/projects/manndesktop2.png",
+        "images/projects/manndesktop3.png",
       ],
-      categories: [filters.MOBILE],
+      categories: [filters.WEB],
     },
     {
-      title: "Dr, Reddy's",
+      title: "DR Reddy's",
       projectInfo:
       "Dr. Reddy's Laboratories is a global pharmaceutical company based in India, with a presence in over 100 countries. The company produces and markets a wide range of pharmaceutical products including generic drugs, biosimilars, and proprietary products. Dr. Reddy's is known for its research and development capabilities and has a strong focus on innovation, including drug discovery and development in key therapeutic areas such as oncology, gastroenterology, and cardiology. The company is also committed to corporate social responsibility and has several initiatives in place to improve access to healthcare and promote education and sustainability.",
       client: "Purple talk",
       date: "2017 - 2019",
-      thumbImage: "images/projects/drreddys1.png",
+      thumbImage: "images/projects/drreddysdesktop1.png",
       sliderImages: [
-        "images/projects/drreddys2.png",
-        "images/projects/drreddys3.png",
+        "images/projects/drreddysdesktop2.png",
+        "images/projects/drreddysdesktop3.png",
       ],
-      categories: [filters.MOBILE],
+      categories: [filters.WEB],
     },
     {
       title: "Kalgudi",
@@ -83,31 +82,34 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       ],
       categories: [filters.WEB],
     },
+    
     {
       title: "Mann + hummel",
       projectInfo:
       "Developed website for Senzit project, it is a product of Man+hummel, provides more uptime to our customers and manages fleet maintenance. It uses sensors to monitor the air filter status of agricultural, construction or mining machinery. Senzit measures the condition of the air filter and transfers the data to the user's mobile device or the fleet manager’s desktop.",
       client: "Purple talk",
       date: "2017 - 2019",
-      thumbImage: "images/projects/manndesktop1.png",
+      thumbImage: "images/projects/mannhummel1.png",
       sliderImages: [
-        "images/projects/manndesktop2.png",
-        "images/projects/manndesktop3.png",
+        "images/projects/mannhummel2.png",
+        "images/projects/mannhummel3.png",
+        "images/projects/mannhummel4.png",
       ],
-      categories: [filters.WEB],
+      categories: [filters.MOBILE],
     },
+    
     {
-      title: "DR Reddy's",
+      title: "Dr, Reddy's",
       projectInfo:
       "Dr. Reddy's Laboratories is a global pharmaceutical company based in India, with a presence in over 100 countries. The company produces and markets a wide range of pharmaceutical products including generic drugs, biosimilars, and proprietary products. Dr. Reddy's is known for its research and development capabilities and has a strong focus on innovation, including drug discovery and development in key therapeutic areas such as oncology, gastroenterology, and cardiology. The company is also committed to corporate social responsibility and has several initiatives in place to improve access to healthcare and promote education and sustainability.",
       client: "Purple talk",
       date: "2017 - 2019",
-      thumbImage: "images/projects/drreddysdesktop1.png",
+      thumbImage: "images/projects/drreddys1.png",
       sliderImages: [
-        "images/projects/drreddysdesktop2.png",
-        "images/projects/drreddysdesktop3.png",
+        "images/projects/drreddys2.png",
+        "images/projects/drreddys3.png",
       ],
-      categories: [filters.WEB],
+      categories: [filters.MOBILE],
     },
     {
       title: "Kalgudi",
